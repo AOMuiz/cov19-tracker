@@ -1,0 +1,18 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-item {
+  list-style-type: none;
+  border: 1px solid blanchedalmond;
+  padding: 8px;
+  background-color: white;
+}
+.page-link:active {
+  background-color: rgba(255, 255, 255, 0.966);
+}
+.page-link {
+  color: rgba(71, 147, 227, 1);
+  text-decoration: none;
+}

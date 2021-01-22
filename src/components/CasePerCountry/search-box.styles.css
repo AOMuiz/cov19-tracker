@@ -1,0 +1,22 @@
+.searchTerm {
+  padding: 4px;
+  width: 70%;
+  border: 2px solid #00b4cc;
+  padding: 13px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+  text-transform: uppercase
+}
+
+.searchTerm:focus {
+  color: #00cc22;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0px;
+}
