@@ -18,10 +18,10 @@ class App extends Component {
         <div className='App'>
           <Navbar />
           <Switch>
-            <Route path='/Home' exact component={CountryTable} />
-            <Route path='/' exact>
+            <Route path='/' exact component={CountryTable} >
               <Redirect to='/Home' />
             </Route>
+            <Route path='/Home' exact component={CountryTable} />
             <Route path='/News' component={CovidNews} />
             <Route path='/VaccineNews' component={VaccineNews} />
             <Route path='/CovidMap' component={Maps} />
