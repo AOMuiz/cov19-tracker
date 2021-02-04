@@ -18,13 +18,13 @@ class App extends Component {
         <div className='App'>
           <Navbar />
           <Switch>
-          <Route path='/Home' exact component={CountryTable} />
-            <Route path='/'>
-              <Redirect to='/Home'/>
+            <Route path='/cov19-tracker' exact component={CountryTable} />
+            <Route path='/' exact>
+              <Redirect to='/cov19-tracker'/>
             </Route>
-            <Route path='/News' exact component={CovidNews} />
-            <Route path='/VaccineNews' exact component={VaccineNews} />
-            <Route path='/CovidMap' exact component={Maps} />
+            <Route path='/cov19-tracker/news'  component={CovidNews} />
+            <Route path='/cov19-tracker/vaccineNews' component={VaccineNews} />
+            <Route path='/cov19-tracker/covidMap' component={Maps} />
           </Switch>
           <div class="footer">
             <p>Copyright &copy; 2021 <a href="https://github.com/AOMuiz">AOMuiz</a></p>

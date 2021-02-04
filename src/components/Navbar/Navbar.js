@@ -31,10 +31,10 @@ function Navbar() {
         <nav className="topnav" id="myTopnav">
           <ul>
           <li className="active">Covid-19 Statistics</li>
-          <Link to='/Home'><li>Home</li></Link>
-          <Link to='/News'><li>News</li></Link>
-          <Link to='/VaccineNews'><li>Vaccine</li></Link>
-          <Link to='/Map'><li>Map</li></Link>
+          <Link to='/cov19-tracker'><li>Home</li></Link>
+          <Link to='/cov19-tracker/news'><li>News</li></Link>
+          <Link to='/cov19-tracker/vaccineNews'><li>Vaccine</li></Link>
+          <Link to='/cov19-tracker/map'><li>Map</li></Link>
           </ul>
         </nav>
       </div>
