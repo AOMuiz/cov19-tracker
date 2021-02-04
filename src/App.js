@@ -19,7 +19,7 @@ class App extends Component {
           <Navbar />
           <Switch>
           <Route path='/Home' exact component={CountryTable} />
-            <Route path='/' >
+            <Route path='/'>
               <Redirect to='/Home'/>
             </Route>
             <Route path='/News' exact component={CovidNews} />
